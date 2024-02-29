@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>
+      Football World
+    </title>
+  </head>
+  <body>
+    <h1>Welcome to Football World</h1>
+
+    <h2>Select the tournament you want to view:</h2>
+    <h3> Tournaments:</h3>
+    {% for row in rows %}
+      <p>
+        <ul>
+       <li> <b><a href={{ url_for('matches', id= row['id']) }}>{{row["name"]}}</a></b></li> 
+       </ul>
+      </p>
+    {% endfor %}
+    
+  </body>
+</html>
+    

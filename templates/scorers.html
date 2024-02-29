@@ -1,0 +1,20 @@
+<html>
+<head>
+  <title>{{ match[0]["home_team"] }} ({{ match[0]["home_score"] }}) VS {{ match[0]["away_team"] }} ({{ match[0]["away_score"] }})</title>
+</head>
+<body>
+ 
+    <h1>{{ match[0]["home_team"] }} ({{ match[0]["home_score"] }}) VS {{ match[0]["away_team"] }} ({{ match[0]["away_score"] }})</h1>
+    
+    {% for row in scorers %}
+
+      For: <b>{{row['team_scored']}} </b> |
+       Scorer: <b>{{row['scorer']}}</b> |
+       Minute: <b> {{row['minute']}} </b>	|
+       Date: <b> {{row['date'][0:-9]}} </b>
+       
+
+    </p>
+    {% endfor %}
+</body>
+</html>

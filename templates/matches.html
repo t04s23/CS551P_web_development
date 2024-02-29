@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title>{{ matches[0]["tournament"] }}</title>
+</head>
+<body>
+ 
+    <h1>{{ matches[0]["tournament"] }}</h1>
+    
+    {% for row in matches %}
+    <p>Match:
+       <b>{{row["home_team"]}} VS {{ row["away_team"]}} </b><br>
+       Score: <b>{{row['home_score']}} - {{row['away_score']}}	</b>|
+       Date: <b> {{row['date'][0:-9]}} </b>	<br><i> Match held:</i> <br>
+       City: <b> {{row['match_city']}} </b>	|
+       Country: <b> {{row['match_country']}} </b> <br>
+      <a href={{ url_for('scorers', id= row['id']) }}>View Goal Details</a>
+
+    </p>
+    {% endfor %}
+</body>
+</html>
