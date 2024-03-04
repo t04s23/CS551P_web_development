@@ -1,0 +1,5 @@
+* 15793c7 : removing extra testing files
+* cd46e55 : adding view and logic
+* cdd8d96 : adding database related files/scripts
+* 5d36e34 : first commit
+* 8f3df17 : Initial commit
