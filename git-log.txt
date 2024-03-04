@@ -1,3 +1,4 @@
+* 34e4e00 : added project report/updated readme.md and git log
 * 2406c1b : error handling
 * 6ecd346 : adding features for testing and git-log
 * 663e695 : adding requirements.txt

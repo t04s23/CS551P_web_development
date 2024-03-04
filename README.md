@@ -12,3 +12,5 @@ the goal scorers' names and related data to the user. This is how a user can vie
 the matches they want to check and view.
 
 No extra commands or path ways are to be followed to use the web application as it very straight forward after the app is up and running.
+
+Link to view the app : https://cs551p-web-development.onrender.com/
