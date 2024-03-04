@@ -1,3 +1,6 @@
+* 2406c1b : error handling
+* 6ecd346 : adding features for testing and git-log
+* 663e695 : adding requirements.txt
 * 15793c7 : removing extra testing files
 * cd46e55 : adding view and logic
 * cdd8d96 : adding database related files/scripts
